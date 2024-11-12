@@ -1,0 +1,18 @@
+body{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.log_container{
+    color: black;
+    box-sizing: content-box;
+    background-color: gold;
+    height: 200px;
+    width: 600px;
+    margin: 50px;
+}
+.content label{
+    display: block;
+    margin: 10px;
+}

@@ -1,0 +1,59 @@
+body {
+    font-family: Arial;
+    background:url(pexels-apasaric-325185.jpg) ;   
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.log {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 150%;
+    margin-bottom: 50px;
+    margin-top: 250px;
+}
+.log_container {
+    background: rgba(255, 255, 255, 0.2); 
+    border-radius: 15px;
+    padding: 2rem;
+    backdrop-filter: blur(15px); 
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.2);
+    color: black; 
+    width: 400px;
+}
+
+.headings{
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 1.5rem;
+    font-family: Times;
+}
+.content label{
+    display: block;           
+    margin-top: 10px;         
+    margin-bottom: 5px;
+}
+.content input {
+    width: 70%;               
+    padding: 10px;            
+    margin-bottom: 15px;      
+}
+.btn {
+margin-top: 13px ;
+padding: 10px;
+width: 300px;
+align-self: center;
+background: linear-gradient(rgb(175, 170, 170) 10%, white 100%);
+font: 2rem;
+color: rgb(0, 0, 0);
+font: Times;
+}
+.btn:hover{
+    color: #fff;
+}
+.sign_up{
+    margin-top: 20px;
+}

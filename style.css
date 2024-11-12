@@ -1,0 +1,122 @@
+body{
+  background-image:url(pexels-apasaric-325185.jpg) ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 150px;
+    text-align: center;
+    color: white;
+
+}
+.quiz-app{
+  background: rgba(255, 255, 255, 0.2); 
+    border-radius: 15px;
+    padding: 2rem;
+    backdrop-filter: blur(30px); 
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.2);
+    color: black;
+    font-family: 'Gill Sans', 'Gills';
+    width: 800px;
+}
+
+.welcome_screen{
+font-family: 'Lato' sans-serif;
+font-size: 2.5rem;
+}
+#start_quiz{
+    width: 250px;
+    padding: 15px;
+    border-radius: 10px;
+    background-color: rgb(13, 201, 13);
+    font-family: serif;
+    font-size: 20px;
+    cursor: pointer;
+    color: black;
+}
+#start_quiz:hover{
+    color: black;
+}
+.quiz-section{
+    font-size: 1.5rem;
+    font-family: serif;
+    color: black;
+}
+.questions{
+word-spacing: 500px;
+}
+#normal{
+    width: 200px;
+    padding: 10px;
+    background-color:  rgb(13, 201, 13);
+    font-size: 20px;
+    font-family: serif;
+    border-radius: 30px;
+    cursor: pointer;
+}
+#genius{
+    width: 200px;
+    padding: 10px;
+    background-color:  rgb(13, 201, 13);
+    font-size: 20px;
+    font-family: serif;
+    border-radius: 30px;
+    cursor: pointer;
+}
+#Einsteine{
+    width: 200px;
+    padding: 10px;
+    background-color:  rgb(13, 201, 13);
+    font-size: 20px;
+    font-family: serif;
+    border-radius: 30px;
+    cursor: pointer;
+}
+#normal:hover, #genius:hover, #Einsteine:hover{
+    color: white;
+}
+img{
+    display: block;
+    margin: auto;
+    
+}
+  #genius, #Einsteine, #normal{
+    background-color:rgb(13, 201, 13) ;
+  }
+  
+ 
+  .question {
+    margin-bottom: 20px;
+    padding: 10px;
+    border-left: 3px solid #4CAF50;
+  }
+  p {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  label {
+    display: block;
+    margin-bottom: 8px;
+    font-size: 14px;
+  }
+  input[type="radio"] {
+    margin-right: 10px;
+  }
+  .question label {
+    font-size: 15px;
+    line-height: 1.6;
+  }
+  button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    
+    margin: 20px auto 0;
+  }
+  button:hover {
+    background-color: white;
+  }
+  #mr{
+    margin-bottom: 1000px;
+    text-align: center;
+  
+  }
